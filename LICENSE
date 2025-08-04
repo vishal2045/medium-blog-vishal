@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2024 Cardio360-Lite Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT MEDICAL DISCLAIMER:
+
+This software is intended for educational and research purposes only. It is NOT 
+intended for use in clinical diagnosis, treatment, or any other medical 
+decision-making. The software has not been approved by any regulatory body for 
+medical use.
+
+Users should:
+- Always consult qualified healthcare professionals for medical advice
+- Not rely solely on this software for medical decisions
+- Understand that false positives and false negatives may occur
+- Seek immediate medical attention for suspected cardiac emergencies
+- Call emergency services (108 in India, 911 in US) for cardiac emergencies
+
+The contributors and maintainers of this software disclaim any responsibility 
+for medical outcomes resulting from the use of this software.

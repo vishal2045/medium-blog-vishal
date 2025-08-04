@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: cardio360-lite-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_ID
+        sync: false
+      - key: DOCTOR_WHATSAPP_NUMBER
+        sync: false
+    healthCheckPath: /health

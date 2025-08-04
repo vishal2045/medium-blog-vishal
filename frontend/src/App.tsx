@@ -1,24 +1,19 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Signup } from './pages/Signup'
-import { Signin } from './pages/Signin'
-import { Blog } from './pages/Blog'
-import { Blogs } from './pages/Blogs'
-import { Publish } from './pages/Publish'
+import { Routes, Route } from 'react-router-dom'
+import { Box } from '@chakra-ui/react'
+import Layout from './components/Layout'
+import Dashboard from './pages/Dashboard'
+import Events from './pages/Events'
 
 function App() {
-
   return (
-    <>
-      <BrowserRouter>
+    <Box minH="100vh" bg="gray.50">
+      <Layout>
         <Routes>
-          <Route path="/*" element={<Signup />} />
-          <Route path="/signin" element={<Signin />} />
-          <Route path="/blog/:id" element={<Blog />} />
-          <Route path="/blogs" element={<Blogs/>} />
-          <Route path="/publish" element={<Publish />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/events" element={<Events />} />
         </Routes>
-      </BrowserRouter>
-    </>
+      </Layout>
+    </Box>
   )
 }
 
